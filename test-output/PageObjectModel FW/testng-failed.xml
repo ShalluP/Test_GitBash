@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PageObjectModel FW]">
+  <parameter name="Uname" value="shallupahwa@gmail.com"/>
+  <parameter name="Pass" value="alreadygot"/>
+  <parameter name="From" value="Bangalore (All Locations)"/>
+  <parameter name="To" value="Tanuku"/>
+  <test name="Page Object Model Frame work Copy of Test Case LogIn Page (failed)">
+    <parameter name="Uname" value="shallupahwa@gmail.com"/>
+    <parameter name="Pass" value="alreadygot"/>
+    <parameter name="From" value="Bangalore (All Locations)"/>
+    <parameter name="To" value="Tanuku"/>
+    <classes>
+      <class name="PageObjectFWTestCase.CopyTestCase2">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="OpenBrowser"/>
+          <include name="TestCases1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- PageObjectFWTestCase.CopyTestCase2 -->
+    </classes>
+  </test> <!-- Page Object Model Frame work Copy of Test Case LogIn Page (failed) -->
+</suite> <!-- Failed suite [PageObjectModel FW] -->

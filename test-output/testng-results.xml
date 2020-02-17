@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="109" started-at="2020-02-17T04:44:02Z" finished-at="2020-02-17T04:44:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="109" started-at="2020-02-17T04:44:02Z" finished-at="2020-02-17T04:44:02Z">
+      <class name="PageObjectFWTestCase.TestCase">
+        <test-method status="FAIL" signature="OpenBrowser(java.lang.String)[pri:0, instance:PageObjectFWTestCase.TestCase@3c09711b]" name="OpenBrowser" is-config="true" duration-ms="0" started-at="2020-02-17T05:44:02Z" finished-at="2020-02-17T05:44:02Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method OpenBrowser requires 1 parameters but 0 were supplied in the @Configuration annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method OpenBrowser requires 1 parameters but 0 were supplied in the @Configuration annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:198)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:134)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:373)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="SKIP" signature="OpenBrowser()[pri:0, instance:PageObjectFWTestCase.TestCase@3c09711b]" name="OpenBrowser" is-config="true" duration-ms="0" started-at="2020-02-17T05:44:02Z" finished-at="2020-02-17T05:44:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="SKIP" signature="TestCases()[pri:0, instance:PageObjectFWTestCase.TestCase@3c09711b]" name="TestCases" duration-ms="0" started-at="2020-02-17T05:44:02Z" finished-at="2020-02-17T05:44:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCases -->
+        <test-method status="SKIP" signature="CloseBrowser()[pri:0, instance:PageObjectFWTestCase.TestCase@3c09711b]" name="CloseBrowser" is-config="true" duration-ms="0" started-at="2020-02-17T05:44:02Z" finished-at="2020-02-17T05:44:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- PageObjectFWTestCase.TestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

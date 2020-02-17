@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="PageObjectModel FW">
+<test name ="Page Object Model Frame work Copy of Test Case LogIn Page ">
+<parameter name ="Uname" value ="shallupahwa@gmail.com"></parameter>
+<parameter name ="Pass" value ="alreadygot"></parameter>
+<parameter name ="From" value ="Bangalore (All Locations)"></parameter>
+<parameter name ="To" value ="Tanuku"></parameter>
+<classes>
+<class name ="PageObjectFWTestCase.CopyTestCase2" ></class>
+</classes>
+</test>
+</suite>
