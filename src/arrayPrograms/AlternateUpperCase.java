@@ -22,7 +22,6 @@ public class AlternateUpperCase {
 				System.out.print(Character.toLowerCase(ch));
 			}
 		}
-		
 		}
 
 }
